@@ -10,15 +10,20 @@ span{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
-    width: 50%;
-    padding-left: 15px;
+    width: 50%; 
+    padding-left: 20px;
+    padding-right: 50px;
+    
     
 }
 .half-width img{
-    width: 75%;
+     width: 80%;
     padding-left: 8%;
+    margin-top: 2%;
+
 }
 .link-button{
     text-decoration: none;
@@ -32,4 +37,18 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.paddiing-left{
+    margin-left: 100px;
+
+}
+.midde-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.p-align p{
+    width: 500px;
+
 }
